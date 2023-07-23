@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React,{ useState } from "react";
+import data from "./data.js"
+import Cards from "./Components/Cards.js"; 
+import "./App.css";
 function App() {
+  const [cards,setCards]=useState(data);
+  function removeCards(id){
+    const newCards=cards.filter(card=>card.id!=id);
+    setCards(newCards); 
+
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="title"><h1>PlAn YoUr LoVe</h1></div>
+      <Cards cards={cards} removeCards={removeCards}/>
     </div>
   );
 }
