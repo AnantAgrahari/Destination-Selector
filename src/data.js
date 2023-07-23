@@ -1,10 +1,11 @@
+
 const data=[
     {
         id:1,
         name:"Agra",
         info:"Agra is a city on the banks of the Yamuna river in the Indian state of Uttar Pradesh, about 230 kilometres (140 mi) south-east of the national capital Delhi and 330 km west of the state capital Lucknow. With a population of roughly 1.6 million, Agra is the fourth-most populous city in Uttar Pradesh and twenty-third most populous city in India.[10]",
         img:"https://tse3.mm.bing.net/th?id=OIP.IOK9HQQaVocu8_SA8GObagHaFP&pid=Api&P=0&h=180",
-        price:14000,
+        price: 14000,
     },
     {
         id:1,
@@ -55,11 +56,12 @@ const data=[
         img:"https://tse2.mm.bing.net/th?id=OIP.YucvyV2zVkqqtsxyu2IrzQELDp&pid=Api&P=0&h=180",
         price:25000,
     },
-    {
-        id:1,
-        name:"Kashmir",
-        info:"Kashmir is the northernmost geographical region of the Indian subcontinent. Until the mid-19th century, the term  denoted only the Kashmir Valley between the Great Himalayas and the Pir Panjal Range. Today, the term encompasses a larger area that includes the India-administered territories of Jammu and Kashmir and Ladakh, the Pakistan-administered territories of Azad Kashmir and Gilgit-Baltistan, and the Chinese-administered territories of Aksai Chin and the Trans-Karakoram Tract",
-        img:"https://wallpapercave.com/wp/wp2678269.jpg",
-        price:45000,
-    }
+    // {
+    //     id:1,
+    //     name:"Kashmir",
+    //     info:"Kashmir is the northernmost geographical region of the Indian subcontinent. Until the mid-19th century, the term  denoted only the Kashmir Valley between the Great Himalayas and the Pir Panjal Range. Today, the term encompasses a larger area that includes the India-administered territories of Jammu and Kashmir and Ladakh, the Pakistan-administered territories of Azad Kashmir and Gilgit-Baltistan, and the Chinese-administered territories of Aksai Chin and the Trans-Karakoram Tract",
+    //     img:"https://wallpapercave.com/wp/wp2678269.jpg",
+    //     price:45000,
+    // }
 ]
+export default data;
